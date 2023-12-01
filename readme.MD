@@ -4,13 +4,13 @@
 ## Usage
 ### Running the Server
 1. Open your terminal or command prompt.
-2. Navigate to the directory containing assignment3.py.
+2. Navigate to the directory containing Multi-Threaded_Network_Server.py.
 3. Run the following command to start the server:
-	- python3 assignment3.py -l <port_number> -p "<pattern>"
+	- python3 Multi-Threaded_Network_Server.py -l <port_number> -p "<pattern>"
 	Where <port_number> is the port number you wish the server to listen on, and "<pattern>" is the pattern you wish to search for within the data.
 
 For instance:
-	- python3 assignment3.py -l 12345 -p "example"
+	- python3 Multi-Threaded_Network_Server.py -l 12345 -p "example"
 	This will start the server on port 12345 and search for the pattern "example".
 
 
